@@ -16,3 +16,5 @@ int main()
 {
 	mahasiswa mhs{ 1 }; //object mhs
 	mhs.showNim();      //Member Acces Operator
+
+	mahasiswa& pndkr = mhs;  //Pointer Reference pndkrMhs
