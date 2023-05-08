@@ -19,4 +19,7 @@ int main()
 
 	mahasiswa& pndkr = mhs;  //Pointer Reference pndkrMhs
 	pndkr.nim = 2;           //Member Acces Operator
+	mhs.showNim();
+
+	mahasiswa* pMhs = &mhs;  //Pointer Dereference pMhs
 	
