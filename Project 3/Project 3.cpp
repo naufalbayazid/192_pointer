@@ -17,5 +17,6 @@ private:
 public:
 	void setId(int pId);
 	void displayAll(orang& a);
+};
 
 
