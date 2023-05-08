@@ -22,4 +22,9 @@ int main()
 	mhs.showNim();
 
 	mahasiswa* pMhs = &mhs;  //Pointer Dereference pMhs
+	pMhs->nim = 3;  //arrow Operator
+	mhs.showNim();
+	system("pause");
+	return 0;
+}
 	
