@@ -20,3 +20,6 @@ public:
 };
 
 
+void siswa :: displayAll(orang& a) { 
+
+
