@@ -39,6 +39,9 @@ o, setNama("Joko Anwar");
 siswa s;
 s.setId(1);
 s.displayAll(o); 
-cout << endl; 
+cout << endl;
+system("pause");
+return 0;
+}
 
 
