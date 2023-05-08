@@ -33,9 +33,9 @@ void orang::setNama(string pNama) {
 }
 
 int main()
-(
+{
 	orang o;
-o, setNama("Joko Anwar");
+o.setNama("Joko Anwar");
 siswa s;
 s.setId(1);
 s.displayAll(o); 
@@ -43,5 +43,3 @@ cout << endl;
 system("pause");
 return 0;  
 }
-
-
